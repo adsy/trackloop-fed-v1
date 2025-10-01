@@ -1,0 +1,1 @@
+export {ConnectedLandingPage} from "./connectedLandingPage";

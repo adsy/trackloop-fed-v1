@@ -1,0 +1,21 @@
+{
+  "name": "localsound-v2-fed",
+  "dockerComposeFile": "docker-compose.yaml",
+  "workspaceFolder": "/workspace",
+  "postCreateCommand": "npm i",
+  "service": "localsound-v2-fed",
+  "remoteUser": "root",
+  "overrideCommand": true,
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "rvest.vs-code-prettier-eslint",
+        "stylelint.vscode-stylelint",
+        "formulahendry.auto-rename-tag",
+        "ms-edgedevtools.vscode-edge-devtools",
+        "github.copilot-chat"
+      ]
+    }
+  }
+}

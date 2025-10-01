@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  trackloop.fed:
+    env_file: .env
+    build:
+      context: ./docker/
+    working_dir: /workspace
+    volumes: 
+      - ..:/workspace
+      - ~/.ssh:/root/.ssh
+      - ~/.workspacerc:/root/.bashrc
+      - ~/.bash_it:/root/.bash_it
+    networks:
+      - trackloop.v1
+networks:
+  trackloop.v1:
+    name: "trackloop.v1"
+    external: true
