@@ -1,1 +1,1 @@
-export {LandingPage, type LandingPageProps} from "./landingPage";
+export {LandingPage} from "./landingPage";

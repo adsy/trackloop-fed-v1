@@ -1,0 +1,1 @@
+export { ModalSize, type ModalContent, type ModalState } from './modal.model';

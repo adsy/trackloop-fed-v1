@@ -4,11 +4,8 @@ import styles from "./landingPage.module.css";
 import { FC } from "react";
 import { Button } from "@/components";
 
-export type LandingPageProps = {
-  signIn: (username: string, password: string) => void;
-};
 
-export const LandingPage: FC<LandingPageProps> = ({ signIn }) => {
+export const LandingPage: FC = ({ }) => {
   return (
     <div id={styles.landingPage}>
       <Image
@@ -23,12 +20,12 @@ export const LandingPage: FC<LandingPageProps> = ({ signIn }) => {
         <Button
           text="Sign In"
           type="primary"
-          onClick={() => signIn("user", "pass")}
+          onClick={() => console.log("user", "pass")}
         />
         <Button
           text="Register"
           type="secondary"
-          onClick={() => signIn("user", "pass")}
+          onClick={() => console.log("user", "pass")}
         />
       </div>
     </div>

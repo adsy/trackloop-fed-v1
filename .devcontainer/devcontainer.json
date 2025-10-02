@@ -1,9 +1,9 @@
 {
-  "name": "localsound-v2-fed",
+  "name": "trackloop.fed",
   "dockerComposeFile": "docker-compose.yaml",
   "workspaceFolder": "/workspace",
   "postCreateCommand": "npm i",
-  "service": "localsound-v2-fed",
+  "service": "trackloop.fed",
   "remoteUser": "root",
   "overrideCommand": true,
   "customizations": {
